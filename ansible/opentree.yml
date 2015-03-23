@@ -2,6 +2,8 @@
   vars:
     deleteWeb2py: True
     deletePhylesystem: True
+  sudo: True
+  sudo_user: root
   roles:
     - dependencies
     - web2py

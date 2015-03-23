@@ -26,7 +26,7 @@
 
 
 - name: copy daemon file
-  action: copy src=web2py dest=/etc/init.d/web2py
+  action: copy src=web2py dest=/etc/init.d/web2py mode="u=rx,g=r"
   when: ansible_os_family == "Debian"
 
 - name: install web2py as daemon

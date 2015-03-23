@@ -56,3 +56,6 @@ API_load_file_GET_url = {opentree_api_domain}/study/{STUDY_ID}/file/{FILE_ID}
 API_update_file_PUT_url = {opentree_api_domain}/study/{STUDY_ID}/file/{FILE_ID}
 API_remove_file_DELETE_url = {opentree_api_domain}/study/{STUDY_ID}/file/{FILE_ID}
 
+[external]
+dir=/data/web2py/applications/curator/private/scratch
+2nexml=/data/opentree-tools/bin/NCLconverter

@@ -15,3 +15,15 @@
 
 - name: install curl
   apt: pkg=curl state=present
+
+- name: install make
+  apt: pkg=make state=present
+
+- name: install autoconf
+  apt: pkg=autoconf state=present
+
+- name: install automake
+  apt: pkg=automake state=present
+
+- name: install g++
+  apt: pkg=g++ state=present

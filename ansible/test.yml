@@ -17,6 +17,15 @@
 #    - web2py
 #    - web2PyApps
 
+- hosts: apps
+  vars:
+    deleteWeb2py: True
+    deletePhylesystem: True
+  roles:
+    - dependencies
+    - web2py
+    - web2PyApps
+
 - hosts: oti
   vars:
     neo4jVersion: 1.9.8
